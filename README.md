@@ -6,7 +6,7 @@
 
 *An unofficial macOS audio effect by Chicken Chukka, based on the Chase Bliss Lost + Found pedal. Two effect slots, twelve algorithms, and three ways to route them.*
 
-**[下载 Mac 版 0.1.72](https://github.com/Huangjunhaoo/hide-and-seek/releases/download/v0.1.72/Hide-and-Seek-Final-0.1.72-Mac.zip)**　·　[发行说明](https://github.com/Huangjunhaoo/hide-and-seek/releases/tag/v0.1.72)　·　[原机对照与测量](#原机对照与测量)
+**[下载 Mac 版 0.1.78](https://github.com/Huangjunhaoo/hide-and-seek/releases/download/v0.1.78/Hide-and-Seek-0.1.78-Mac.zip)**　·　[发行说明](https://github.com/Huangjunhaoo/hide-and-seek/releases/tag/v0.1.78)　·　[原机对照与测量](#原机对照与测量)
 
 适用 **Apple silicon Mac，macOS 15.6 或更新版本**。ZIP 内含独立程序、AU 插件、安装说明和 MIDI CC / Program Change 指南。
 
@@ -14,7 +14,7 @@
 
 想试串联，可以选左槽 **2B Pitch Repeater**、右槽 **4A Tape Echo**，打开两个槽，选 **L → R**。左槽选 **4**，弹几个间隔分明的单音，就能听到移高四度的重复进入磁带回声。再切到 **Parallel**，磁带一侧就会直接收到原来的吉他。单声道输入可打开 **MISO** 获得立体声输出。
 
-左右槽各有一套音色、EQ、IGNORE 和 SYNC。右侧预设栏可收起；点选槽位后按 **Load**，或从 MIDI 控制器发送 **PC 0–127** 直接切换。**PC 0** 是自定义默认音色。
+左右槽各有一套音色、EQ、IGNORE 和 SYNC。右侧预设栏可收起；点选槽位后按 **Load Selected Slot** 加载，用 **Save to Selected Slot** 把当前声音写入高亮槽。右键点击已有预设可重命名或删除。主面板标题旁显示当前版本号。也可以从 MIDI 控制器发送 **PC 0–127** 直接切换。**PC 0** 是自定义默认音色。
 
 | 组 | A | B |
 | :-- | :-- | :-- |
@@ -69,4 +69,4 @@
 
 ## 定档范围
 
-以上数字来自各音色的开发对照轮次。原机主控版本当时未读出，模拟输入输出级也没有完整建模。长混响的自由相位、演奏电平和调制历史都会影响单次录音，因此这里按具体设置报告结果。0.1.72 的交付检查还覆盖了 AU 验证、预设改名、显式加载、保存到新槽、PC 0 默认槽和宿主工程恢复。
+以上数字来自各音色的开发对照轮次。原机主控版本当时未读出，模拟输入输出级也没有完整建模。长混响的自由相位、演奏电平和调制历史都会影响单次录音，因此这里按具体设置报告结果。0.1.78 的交付检查还覆盖了 AU 验证、预设改名、显式加载、保存到新槽、PC 0 默认槽和宿主工程恢复。
